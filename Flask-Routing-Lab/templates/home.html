@@ -3,8 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css"/>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body id="bo">
+ <h1>
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/2560px-EBay_logo.svg.png" width="100px"> 
+ </h1>
+ <h2>
+     zena's book shop
+ </h2>
+ <div class="topnav">
+  <a class="active" href="/">Home</a>
+  <a href="/product">product</a>
+  <a href="/cart">cart</a>
+  <input type="text" placeholder="Search..">
+</div>
+<h2> welcome to zena's bookshop, here you can buy old igcse text books for half the price</h2>
+<div class="container"> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <a href="/product">
+            <button class="button b1">
+                <img src="https://www.pearson.com/uk/content/dam/one-dot-com/one-dot-com/international-schools/images/international-gcses/science/images/IG%20Chemistry_9780435185169.png" alt="chemistry text book" width="400px">
+                <p> grade nine igcse chemistry text book (don't take chemistry it's not worth it)</p>
+            </button>
+        </a>
+      </div>
+
+      <div class="item">
+       <a href="/product3">
+         <button class="button b2">
+            <img src="https://www.pearson.com/content/dam/one-dot-com/one-dot-com/international-schools/images/international-gcses/science/images/IG%20Biology%20Student%20Book.jpg" alt="biology textbook" width="400px">
+            <p>grade nine igcse biology text book (if you like biology you are dumb)</p>
+        </button> 
+        </a>
+      </div>
+    
+      <div class="item">
+       <a href="/product2">
+         <button class='button b3'>
+            <img src="https://www.igcsebookshop.co.uk/wp-content/uploads/2017/04/9780435185275.jpg" alt="physics textbook" width="400px" >
+             <p>grade nine igcse physics text book (PHYSICS IS THE BEST !!!)</p>
+        </button> 
+        </a>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+    
+ 
 </body>
 </html>
